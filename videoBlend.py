@@ -1,3 +1,16 @@
+######################################################################################################################
+######################################################################################################################
+# Uses the computer's  camera and adds one of the predefined filters to the video output in real-time.               #
+# Filters can be selected by the scroll bar on the top of the video screen                                           #
+# Available filters are listed below:                                                                                #
+# 0: PencilSketch                                                                                                    #     
+# 1: Cartoon                                                                                                         #
+# 2: Clarendon                                                                                                       #
+# 3: Moon Filter                                                                                                     #
+# 4: XPro II                                                                                                         #
+######################################################################################################################
+######################################################################################################################
+
 import cv2, argparse
 import numpy as np
 from filters import sketchPencilUsingBlending, xpro2, moon, clarendon, makeCartoon
