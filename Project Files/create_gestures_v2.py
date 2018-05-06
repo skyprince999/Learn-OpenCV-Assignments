@@ -33,7 +33,8 @@ if __name__ == '__main__':
           os.makedirs(dataDir)
   else:
       dataPoint = ' '
-      print("Next time enter a number [0-9] or an alphabet [a-z]")
+      print("Next time enter a number [0-9] or an alphabet [a-z]") 
+      # Check
   
       
   
